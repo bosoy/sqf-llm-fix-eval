@@ -1,0 +1,7 @@
+[
+  {"pattern": "isplayer\\s*\\[", "note": "isPlayer с массивом (проверить по wiki)"},
+  {"pattern": "_killermp", "note": "параметр _killerMP (проверить порядок параметров Killed)"},
+  {"pattern": "publicvariable\\s*\"pts\"", "note": "publicVariable для переменной объекта"},
+  {"pattern": "name\\s+_x\\s*==\\s*_killer", "note": "killer приходит объектом, не строкой"},
+  {"pattern": "remoteexec(call)?\\s*\\[\\s*\"\\s*\\{", "note": "код в строке remoteExec"}
+]
